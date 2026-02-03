@@ -4,7 +4,7 @@
 #include "mamdani_fuzzy_system.cuh"
 #include "simulation.cuh"
 
-const int N = 12341623; // Ilość próbek
+const int N = 50000; // Ilość próbek
 
 // Generowanie danych testowych
 void generateData(std::vector<float>& temp, std::vector<float>& hum) {

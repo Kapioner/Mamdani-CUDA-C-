@@ -4,7 +4,7 @@
 #include <cmath>
 #include <algorithm>
 
-const int DEFUZZ_STEPS = 2;
+const int DEFUZZ_STEPS = 100;
 
 __host__ __device__ float computeMamdani(float temp, float hum) {
     // Ustalenie zbiorów rozmytych

@@ -2,7 +2,7 @@
 #include <iostream>
 #include "simulation.cuh"
 
-const int N = 12341623; // Ilość próbek
+const int N = 50000; // Ilość próbek
 
 int main() {
     // Przygotowanie wejść i wyjść systemu
