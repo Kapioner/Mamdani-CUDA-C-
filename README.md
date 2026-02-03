@@ -3,7 +3,7 @@ To compile the project type:
 nvcc .\src\main.cu .\src\simulation.cu .\src\mamdani_fuzzy_system.cu -I./include -o .\run\mamdani
 ```
 
-Computation times for given samples and diffusion steps:
+Compute times for given samples and diffusion steps:
 
 N = 10000000, DEFUZZ_STEPS = 2
 ```
